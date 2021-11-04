@@ -1,0 +1,213 @@
+ /* Containers */
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    height: 100%;
+}
+.background-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../mainImage2.jpg);
+    width: 100%;
+    height: 50vw;
+}
+.individual-estate-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+.pills-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.signup-modal-overlay-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Para el modal */
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal {
+    background: #FFFFFF;
+    box-shadow: 2px 2px 20px 1px;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: column;
+}
+.modal-header,
+.modal-footer {
+    padding: 15px;
+    display: flex;
+}
+.modal-header {
+    position: relative;
+    border-bottom: 1px solid #eeeeee;
+    color: #4AAE9B;
+    justify-content: space-between;
+}
+.modal-footer {
+    border-top: 1px solid #eeeeee;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.modal-body {
+    position: relative;
+    padding: 20px 10px;
+}
+/* .btn-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #4AAE9B;
+    background: transparent;
+}
+.btn-green {
+    color: white;
+    background: #4AAE9B;
+    border: 1px solid #4AAE9B;
+    border-radius: 2px;
+} */
+/* Text */
+.logo-estate {
+    font-family: "Merriweather Sans", sans-serif;
+    color: #27187f;
+}
+.logo-finder {
+    font-family: "Merriweather Sans", sans-serif;
+    color: #758bfd;
+}
+#welcomeText {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 5vw;
+    color:#27187f;
+    text-align: center;
+}
+#estateAddress {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 1vw;
+    color: grey;
+}
+#estateName {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size:2vw;
+    color: #27187f;
+}
+#estatePrice {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 3vw;
+    color: #758bfd;
+}
+.reusable-text {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size:1vw;
+    color: #27187f;
+}
+/* Buttons */
+button {
+    font-family: "Merriweather Sans", sans-serif;
+    color: white;
+    border-width: 0px;
+    border-radius: 50px;
+    padding: 15px;
+    margin: 5px; 
+    width: fit-content;
+    height: fit-content;
+}
+button:hover {
+    animation-name: "tt";
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    transform: scale(1.05);
+}
+.small-button {
+    font-size: large;
+    background-color: #27187f;
+}
+.big-button {
+    font-size: xx-large;
+    background-color: #27187f;
+}
+.exit-button {
+    font-size: large;
+    background-color: transparent;
+    color: #27187f;
+    border-radius: 50%;
+    padding: 2px 8px;
+}
+/* Input */
+[type="date"], [type="time"]  {
+    border-color: #27187f;
+    border-width: 2px;
+    border-radius: 50px;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: large;
+    color: #27187f;
+}
+/* Other */
+footer {
+    background-color: white;
+    width: 100%;
+    height: 5%;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: x-large;
+    text-align: center;
+    color:#27187f;
+}
+.pill {
+    color: #27187f;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    border-color: #27187f;
+    padding: 15px;
+    width: fit-content;
+    height: fit-content;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: large;
+}
+.individual-estate-container img {
+    width: 50%;
+    height: 100%;
+}
+fieldset {
+    border-width: 2px;
+    border-radius: 50px;
+    border-color: #27187f;
+}
+#appointmentForm {
+    position: relative;
+    margin: auto;
+    top: 50px;
+}
+/* Animations */
+@keyframes tt {
+    100% {
+        background-color: #758bfd;
+    }
+}
