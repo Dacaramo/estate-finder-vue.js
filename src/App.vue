@@ -1,6 +1,6 @@
 <template>
   <header class="header-container">
-    <router-link to="#" style="text-decoration: none;">
+    <router-link to="/" style="text-decoration: none;">
       <h1 class="logo-estate">estate<span class="logo-finder">Finder</span></h1>
     </router-link>
     <div>

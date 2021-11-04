@@ -1,7 +1,9 @@
 <template>
   <main class="background-image-container">
     <p id="welcomeText">Find your next home, invest in real estate or just look for estate prices</p>
-    <button class="big-button">Go find something!</button>
+    <router-link to="/search/form">
+      <button class="big-button">Go find something!</button>
+    </router-link>
   </main>
   <footer>
   </footer>
