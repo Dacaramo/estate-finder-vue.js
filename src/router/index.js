@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import SearchForm from '../views/SearchForm.vue'
+import SearchResults from '../views/SearchResults.vue'
 import IndividualEstate from '../views/IndividualEstate.vue'
 
 const routes = [
@@ -13,6 +14,11 @@ const routes = [
     path: '/search/form',
     name: 'SearchForm',
     component: SearchForm
+  },
+  {
+    path: '/search/results',
+    name: 'SearchResults',
+    component: SearchResults
   },
   {
     path: '/estates/{estateId}',

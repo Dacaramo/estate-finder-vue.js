@@ -36,6 +36,13 @@
     justify-content: center;
     align-items: center;
 }
+.search-form-container {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 400px 400px 400px;
+    grid-gap: 50px;
+    width: 100%;
+}
 /* Para el modal */
 .modal-backdrop {
     position: fixed;
@@ -129,7 +136,7 @@
     color: #27187f;
 }
 /* Buttons */
-button {
+button, [type="submit"] {
     font-family: "Merriweather Sans", sans-serif;
     color: white;
     border-width: 0px;
@@ -139,7 +146,7 @@ button {
     width: fit-content;
     height: fit-content;
 }
-button:hover {
+button:hover, [type="submit"]:hover {
     animation-name: "tt";
     animation-duration: 500ms;
     animation-fill-mode: forwards;
@@ -186,7 +193,7 @@ footer {
     border-radius: 50px;
     border-color: #27187f;
     padding: 15px;
-    width: fit-content;
+    width:auto;
     height: fit-content;
     font-family: "Merriweather Sans", sans-serif;
     font-size: large;
