@@ -22,6 +22,6 @@
             </fieldset>
         </form>
     </main>
-    <footer>   
+    <footer>
     </footer>
 </template>
